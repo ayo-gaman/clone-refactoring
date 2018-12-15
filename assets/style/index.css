@@ -140,3 +140,44 @@ a:hover {
     color: #383434;
     padding : 30px 0;
 }
+
+.gallery-1 {
+  padding-top: 30px;
+  padding-left: 9%; 
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch;
+  max-width: 82%;
+  justify-content: center;
+}
+
+.column {
+  margin: 10px;
+  border: 1px solid #ccc;
+  max-width: 280px;
+  align-items: center;
+  transition-duration: 0.5s;
+  transition-timing-function: 0.5s;
+}
+
+.column img {
+  max-width: 100%;
+  transition-duration: 0.5s;
+  transition-timing-function: 0.5s;
+}
+
+.column:hover,
+.column:focus,
+.column:active {
+  transform: translateY(-8px);
+}
+
+.gallery-2 {
+  padding-top: 30px;
+  padding-left: 9%; 
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch;
+  max-width: 82%;
+  justify-content: center;
+}
