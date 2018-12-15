@@ -1,0 +1,142 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+p {
+    font-size: 18pt;
+}
+
+a {
+    text-decoration: none;
+}
+
+a.au {
+    text-decoration: underline;
+}
+
+a.au:hover{
+    color: #ffffff;
+}
+
+a:hover {
+    color: #3c6aaf;
+}
+
+.header-top {
+    background: #417fdb;
+    display: flex;
+    height: 60px;
+    align-items: center;
+    padding: 0 0 0 180px;
+    color: #ffffff;
+    font-weight: 600;
+}
+
+.header-top-item{
+    color: #ffffff;
+}
+
+.header-text {
+    font-size: 15pt;
+}
+
+.savage {
+    height: 70px;
+}
+
+.banner-hero {
+    display: flex;
+    align-items: center;
+    padding: 0 0 0 180px;
+    height: 560px;
+    background-image: url("/assets/images/hero-pattern.svg");
+    background-repeat: repeat;
+    background-position: 50%;   
+    color : #ffffff; 
+}
+
+.banner-text-hero {
+    font-size: 22pt;
+    margin: 20px 0 0 0 ;
+}
+
+.banner-text-hero-learn {
+    font-size: 12pt;
+    margin:20px 0px 0px 0px;
+    font-weight: bold;
+}
+
+.text-hero {
+    color: #95dbe4;
+    margin: 20px 0 0 0;
+    font-weight: 100;
+}
+
+.text-hero-bottom {
+    margin: 50px 0 10px 0;
+}
+
+.text-hero-b1 {
+    font-size: 15pt;
+    font-weight: 600;
+}
+
+.first-form {
+    display: flex;
+}
+
+.form-email {
+    box-sizing: border-box;
+    font-size: 15pt;
+    width: 420px;
+    height: 55px;
+    border-radius: 4px 0 0 4px;
+    border: 0;
+    padding: 0 20px;
+    color : #383434;
+}
+
+.form-subscribe {
+    background: #625b9b;
+    height: 55px;
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    border-radius: 0 4px 4px 0;
+    border: 0;
+}
+
+.form-subscribe:hover {
+    background: #7f77bb;
+    cursor: pointer;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+}
+
+.main-frame {
+    height: 70px;
+    width: 70%;
+}
+
+.main-middle {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid #b4aeae ;
+}
+
+.main-middle-one {
+    padding : 30px 0;
+    border-bottom:3px solid #417fdb;
+}
+
+.main-middle-two {
+    color: #383434;
+    padding : 30px 0;
+}

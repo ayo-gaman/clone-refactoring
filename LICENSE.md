@@ -1,0 +1,1 @@
+Copyright &copy; @ayo-gaman 2018
